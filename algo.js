@@ -108,11 +108,11 @@ function s2e1(a, b, c, d, e, f, arrxy){
 
     if( arrxy[1].toString() == "NaN" || arrxy[0].toString() == "NaN")
     {
-        document.getElementById("error").innerHTML = "No hay solucion, las rectas son paralelas (NaN)";
+        document.getElementById("error").innerHTML = "No hay solucion las ecuaciones son equivalentes (NaN)";
     }
     else if (arrxy[1].toString() == "Infinity" || arrxy[0].toString() == "Infinity")
     {
-        document.getElementById("error").innerHTML = "No hay solucion las ecuaciones son equivalentes (Infinity)";
+        document.getElementById("error").innerHTML = "No hay solucion, las rectas son paralelas (Infinity)";
     }
 }
 
